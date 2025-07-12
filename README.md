@@ -157,6 +157,14 @@ npm start
 - **Railway/Heroku** - Full-stack deployment
 - **VPS/Docker** - Self-hosted deployment
 
+### Deploying to Netlify
+
+1. Push this project to a GitHub repository.
+2. Create an account at [Netlify](https://netlify.com) and click **New site from Git**.
+3. Select your repository and leave the detected settings (`npm run build` and `dist/public`).
+4. Netlify reads `netlify.toml` and builds your app, deploying the API as a serverless function.
+5. After the build finishes, you will get a public URL where the site and API are available.
+
 ## 🤝 Contributing
 
 1. Fork the repository
